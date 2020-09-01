@@ -1,0 +1,21 @@
+<div class="container-fluid">
+    <div class="row">
+    <div class="col-lg-3 col-md-3 col-12">
+        <div class="card mt-5">
+            <img class="card-img-top" [src]="user.photURL">
+            <div class="class card-body">
+                <h4 class="card-title">
+                    {{user.displayName}}
+                </h4>
+                <a routerLink="/edit-profile/{{user.uid}}" class="btn btn-sm btn-primary">
+                    Edit Profile  
+                </a>
+            </div>
+
+        </div>
+    </div>
+<div class="col-lg-9 col-md-9 col-12">
+<app-create></app-create>
+</div>
+</div>
+</div>

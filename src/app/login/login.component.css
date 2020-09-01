@@ -1,0 +1,29 @@
+.form-group{
+    padding:8px 0px;
+    margin: 8px 0px;;
+}
+.background{
+    height: 80vh;
+    background:#2e7cf6;
+}
+.height-component{
+    height: 100%;
+    background:#3697ff;
+}
+.card {
+    background-color: #fff0;
+    border: 1px solid rgb(0 0 0 / 0%);
+}
+.card-body {
+    background-color: #66339900;
+    border: 8px solid #ff000000;
+}
+h5{
+    color:#fff;
+}
+.btn[type=submit]{
+    border-radius: 50px;
+}
+.btn-link{
+    color:#fff;
+}

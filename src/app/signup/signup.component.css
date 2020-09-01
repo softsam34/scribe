@@ -1,0 +1,33 @@
+body {
+    height: 100%;
+    background: #2e7cf6;
+}
+.blog-tag-line{
+    font-size:52px;; 
+    color:#fff; 
+}
+.background-left{
+    background-image: url('/assets/Sign-Up-BG-Image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:left;
+    background-color: #2e7cf6;
+}
+.background-right{
+    background-color: #2e7cf6;
+  
+}
+.card {
+    background-color: #fff0;
+    border: 1px solid rgb(0 0 0 / 0%);
+}
+.card-body {
+    background-color: #66339900;
+    border: 8px solid #ff000000;
+}
+h5{
+    color:#fff;
+}
+.btn[type=submit]{
+    border-radius: 50px;
+}
