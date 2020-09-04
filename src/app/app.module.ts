@@ -33,26 +33,29 @@ firebase.initializeApp(firebaseConfig);
 
 @NgModule({
   declarations: [
-    AppComponent,
-    SignupComponent,
-    LoginComponent,
-    HomeComponent,
-    CapitalizePipe,
-    MenuComponent,
-    MyblogsComponent,
-    ProfileComponent,
-    CreateComponent,
-    NgxEditorModule,
-    HttpClientModule
-    
+  AppComponent,
+  SignupComponent,
+  LoginComponent,
+  HomeComponent,
+  CapitalizePipe,
+  MenuComponent,
+  MyblogsComponent,
+  ProfileComponent,
+  CreateComponent
   ],
   imports: [
-    BrowserModule,
-    FormsModule,
-    AppRoutingModule, 
-    ReactiveFormsModule
+  BrowserModule,
+  FormsModule,
+  ReactiveFormsModule,
+  AppRoutingModule,
+  NgxEditorModule,
+  HttpClientModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
-})
+  bootstrap: [AppComponent],
+  })
+  
+
+
+
 export class AppModule { }
